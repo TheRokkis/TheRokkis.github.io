@@ -1,0 +1,139 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+  
+
+
+
+<div class="main">
+ <table border="1px" class="tdcenter">
+   <tbody><tr>
+   <td class="black"></td>
+   <th>1 БГ<br></th>
+   <th>2 БГ<br></th>
+   <th>3 БГ<br></th>
+
+  </tr>
+  <tr>
+  <th>День 1</th>
+  <td><select name="select" id="den1_bg1" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td>
+  <td><select name="select" id="den1_bg2" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td>
+  <td><select name="select" id="den1_bg3" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td></tr>
+   
+     
+  <tr>
+  <th>День 2</th>
+  <td><select name="select" id="den2_bg1" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td>
+  <td><select name="select" id="den2_bg2" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td>
+  <td><select name="select" id="den2_bg3" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td></tr>     
+    
+     
+       <tr>
+  <th>День 3</th>
+  <td><select name="select" id="den3_bg1" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td>
+  <td><select name="select" id="den3_bg2" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td>
+  <td><select name="select" id="den3_bg3" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td></tr>  
+     
+       <tr>
+  <th>День 4</th>
+  <td><select name="select" id="den4_bg1" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td>
+  <td><select name="select" id="den4_bg2" onchange="gold()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td>
+  <td><select name="select" id="den4_bg3" onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td></tr>  
+     
+       <tr>
+  <th>День 5</th>
+  <td><select name="select" id="den5_bg1"  onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td>
+  <td><select name="select" id="den5_bg2"  onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td>
+  <td><select name="select" id="den5_bg3"  onchange="BC(),gold(),loyalty()">
+    <option value="1">2/3 Карта</option>
+    <option value="2">4 Карта</option>
+    <option value="3">5 Карта</option>
+    <option value="4">6 Карта</option>
+  </select></td></tr> 
+</div>   
+<script></script>
+
+<div> <p id="resultgold"></p><img src="gold.png" width="50" height="50" alt=""></div>
+<div> <p id="resultBG"></p><img src="battle_chips.png" width="50" height="50" alt=""></div>
+<div> <p id="resultloyalty"></p><img src="loyalty.png" width="50" height="50" alt=""></div>
+
+
+<script src="kalk.js"></script>  
+</body>
+</html>
