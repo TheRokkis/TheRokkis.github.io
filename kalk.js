@@ -133,6 +133,10 @@ function gold() {
 }
   sum =day1+day2+day3+day4+day5; 
 	document.getElementById('resultgold').innerHTML = sum;
+   var qwe = sum/30;
+   var cost=parseInt(qwe * 100) / 100 ;
+  document.getElementById('resultgoldH').innerHTML = cost;
+  
 }
 
 function BC() {
@@ -265,6 +269,9 @@ function BC() {
 }
   sum =day1+day2+day3+day4+day5; 
 	document.getElementById('resultBG').innerHTML = sum;
+   var qwe = sum/30;
+   var cost=parseInt(qwe * 100) / 100 ;
+  document.getElementById('resultBGH').innerHTML = cost;
  }
 
 function loyalty() {
@@ -397,4 +404,8 @@ function loyalty() {
 }
   sum =day1+day2+day3+day4+day5; 
 	document.getElementById('resultloyalty').innerHTML = sum;
+   var qwe = sum/30;
+   var cost=parseInt(qwe * 100) / 100 ;
+  
+  document.getElementById('resultloyaltyH').innerHTML = cost;
  }

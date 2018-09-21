@@ -1,14 +1,53 @@
-#resultgold{
-	position: relative;;
+
+.main{
+	position: absolute;
+	background-color:#e1e1e1;
+	width: 900px;
+	top: 100px;
+	left: 80px;
+	height: 550px;
+}
+
+
+.tdcenter{
+position: relative;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 20px;
+border-radius: 1px;
+border-spacing: 0;
+text-align: center;
+background-color:#ECE9E0;
 
 }
-#resultBG{
-	position: relative;;
+
+select{
+font-size: 21px;
+background-color:#EBEFE0;
+
 }
-#resultloyalty{
-	position: relative;;
+
+.table2{
+position: relative;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 20px;
+top: 20px;
+border-radius: 1px;
+border-spacing: 0;
+text-align: center;
+background-color:#ECE9E0;
+
+
 }
-.main{
-	position: relative;;
-	
+.loyalty{
+	position: absolute;
+}
+
+
+
+.table2{
+
+
+button{
+	position: relative;
+	top: 200px;
 }
